@@ -1,0 +1,278 @@
+
+
+body  {
+	background-image: url("C:/Users/zobri/Basic-Portfolio/confectionary.png");
+	color: #777777;
+	line-height: 27px;
+	height: 90%;
+
+
+}
+
+#main  {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border-bottom: solid .75px;
+	border-spacing: 0px;
+	height: 27.1px;
+	border-bottom-width: 100%
+	margin-top: 0px;
+	padding-top: 0px;
+
+
+}
+	
+
+
+
+h1 {
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	height: 27.2px;
+}
+
+#footer  {
+	position: absolute;
+	background-color: #666666;
+	font-family: 'Arial',  'Helvetica Neue',  sans-serif;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	font-size: 12px;
+	border-top: solid;
+	border-color: #4aaaa5
+
+}
+
+}
+
+h2, h1  {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#bio  {
+	float: left;
+	margin-top: 45px;
+	padding-left: 20px;
+	margin-left:  80px;
+	width: 650px;
+}
+
+.social  {
+	position: absolute;
+	top: 80px;
+	right: 200px;
+	background-color: #ffffff;
+	width: 270px;
+	text-align: center;
+}
+
+#bio-image  {
+	margin-right: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+#social, #bio-image, #bio, footer  {
+	float: left;
+	background-color: #ffffff;
+
+
+}
+
+.links  {
+	position: absolute;
+	top: 6px;
+	right: 1px;
+	background-color: #ffffff;
+	z-index: 1;
+	width:78%;
+	height:19px;
+	padding-bottom: 10px;
+	text-indent: 649px;
+
+}
+
+h1  {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	margin-left: 80px;
+	
+}
+
+h2  {
+	color: #4aaaa5;
+	border-bottom:  solid 1px;
+	border-color: #cccccc;
+	padding-bottom: 10px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+#stack, #github, #link  {
+	width: 50px;
+	height: 50px;
+	padding: 15px;
+	align-self: center;
+}
+
+}
+
+.mainContent {
+	width:960px;
+}
+
+#form  {
+	width: 650px;
+	background-color: #ffffff;
+	margin-top: 43px;
+	margin-left: 80px;
+	padding: 10px 50px 50px 50px;
+}
+
+
+
+#submit  {
+	background-color: #4aaaa5
+}
+
+a:link  {
+	text-decoration: none;
+ }
+
+#hangmanImg {
+	width: 200px;
+	height: 200px;
+} 
+
+#hangmanText  {
+	z-index: 1;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width:200px;
+	text-align: center;
+	position: relative;
+	top: -50px;
+	height: 27px
+
+}
+
+
+#triviaText  {
+	z-index: 1;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width:200px;
+	text-align: center;
+	position: relative;
+	top: -50px;
+	height: 27px
+}
+
+#triviaImg  {
+	width: 200px;
+	height: 200px;
+}
+
+#rpgImg  {
+	width: 200px;
+	height: 200px;
+}
+
+#rpgText  {
+	z-index: 1;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width:200px;
+	text-align: center;
+	position: relative;
+	top: -50px;
+	height: 27px
+}
+
+#rutgersImg  {
+	width: 200px;
+	height: 200px;
+
+}
+
+#rpsImg {
+	height:200px;
+	width: 200px;
+}
+
+#rpsText  {
+
+	z-index: 1;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width:200px;
+	text-align: center;
+	position: relative;
+	top: -50px;
+	height: 27px
+	
+}
+
+#rutgersText  {
+	z-index: 1;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width:200px;
+	text-align: center;
+	position: absolute;
+	top: 155px;
+}
+
+.portfolioContainer  {
+	float: left;
+	margin-top: 45px;
+	padding-left: 20px;
+	margin-left:  80px;
+	width: 650px;
+	background-color: #ffffff;
+	height: 780px;
+
+}
+.whole  {
+	background-image: url("C:/Users/zobri/Basic-Portfolio/confectionary.png");
+	height: 100%;
+
+}
+
+.hangmanBox  {
+	position: absolute;
+	top: 145px;
+	left: 160px;
+
+}
+
+.rpsBox  {
+	position: absolute;
+	top: 605px;
+	left: 160px;
+}
+
+.rpgBox  {
+	position: absolute;
+	top: 145px;
+	right: 688px;
+
+}
+
+.rutgersBox  {
+	position: absolute;
+	top: 385px;
+	right: 688px;
+
+}
+
+.triviaBox  {
+	position: absolute;
+	left: 160px;
+	top: 385px;
+
+}
