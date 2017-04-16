@@ -1,61 +1,67 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
+
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	
-	<title>Robert Zobrist</title>
+  <meta charset="UTF-8">
+  <title>Contact | Robert Diluzio Zobrist</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-	
-	<div class="whole">
-		<header id="main">
-		
-			<h1>Robert Zobrist</h1>
-				<div class="links">
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
-				</div>
-		</header>
 
+  <header id="masthead">
+    <div class="container">
+      <a href="#" id="logo">Robert Zobrist</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-			
-				<form action="#" id="form">
-				<h2>Contact</h2>
-					Name
-					<br>
-					<input type="text" name="name" style="width: 637px;">
-					
-					<br>
-					Email
-					<br>
-					<input type="text" name="Email" style="width: 637px;">
-					<br>
-					Message
-					<br>
-					<input type="text" name="Message" style="height: 100px; width: 637px;">
-					<br><br>
-		
-					<input type="submit" name="" value="Submit" id="submit">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-			</form>
-			
-		<section class="social">
-			<h2 style="text-align: center;">Connect with Me</h2>
-				
-					
-						<a href="https://github.com/afflatus480" target="_blank"><img src='github.png' onmouseover="this.src='github_edited.jpg';" onmouseout="this.src='github.png';" id="github" title="Go to my github profile"></a>
-						
-						<a href="https://www.linkedin.com/in/robert-zobrist-1a2474133/" target="_blank"><img src="linkedin_1.jpg" onmouseover="this.src='linkedin_edited.jpg';" onmouseout="this.src='linkedin_1.jpg';" id="link" title="Go to my Linkedin profile"></a>
-						
-						<a href="http://stackoverflow.com/users/7656226/robert-zobrist" target="_blank"><img src="stack.png" onmouseover="this.src='stack_edited.jpg';" onmouseout="this.src='stack.png';" id="stack" title="Go to my Stackoverflow profile"></a>
-					
-				</section>
-	<footer id="footer">
-	&copy; Copyright 2017 Robert Diluzio Zobrist 
-	</footer>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-</div>
+    </section>
+
+   <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="https://github.com/afflatus480"><img src="github.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/robert-zobrist-1a2474133/"><img src="linkedin_1.png" class="social" alt="LinkedIn" /></a>
+        <a href="http://stackoverflow.com/users/7656226/robert-zobrist"><img src="stack.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+     
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
 </body>
+
 </html>
