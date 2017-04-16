@@ -450,21 +450,20 @@ input[type=submit] {
    .col-m-12 {width: 100%;}
    
    #logo {
-   float: left;
+  
    width: 100%;
    text-align: center;
 
    }
    #masthead  {
-    width: 640px;
-    padding-left: 0px;
+    max-width: 100%;
+    position: static;
    }
 
    nav {
-     float: left;
      width: 580px;
      text-align: center;
-     clear: both;
+  
    }
    .main-section {
      float: left;
