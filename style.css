@@ -288,8 +288,9 @@ input[type=submit] {
 
        }
      .main-section  {
-      width: 50%;
-      margin-left: 75px;
+      width: 100%;
+      padding-right: 20px;
+      padding-left: 20px;
      
      }
 
