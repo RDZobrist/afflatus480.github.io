@@ -239,3 +239,94 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+    
+        #masthead  {
+          width: 100%;
+          padding-left: 80px;
+          padding-right: 80px;
+        }
+        body  {
+          font-size: 80%;
+        }
+       #main-container,
+       .container  {
+        width: 100%
+       }
+       .sidebar  {
+        width: 100%;
+        padding-right: 10px;
+        margin-right: 50px;
+       }
+     .main-section  {
+      width: 50%;
+      margin-left: 75px;
+     
+     }
+        
+}
+@media and (max-width:768px)  {
+  #masthead  {
+    width: 100%;
+
+  }
+  
+  body  {
+    font-size: 60%;
+
+  }
+   #main-container,
+       .container  {
+        width: 100%
+       }
+       .sidebar,
+       #connect  {
+        width: 50%;
+        padding-right: 400px;
+        margin-right: 400px;
+
+       }
+     .main-section  {
+      width: 50%;
+      margin-left: 75px;
+     
+     }
+
+        
+  
+
+}
+
+@media and (max-width: 640px)  {
+  #masthead  {
+    width: 100%;
+
+  }
+  
+  body  {
+    font-size: 60%;
+
+  }
+   #main-container,
+       .container  {
+        width: 100%
+       }
+       .sidebar,
+       #connect  {
+        width: 100%;
+        padding-right: 300px;
+
+       }
+     .main-section  {
+      width: 50%;
+      margin-left: 75px;
+     
+     }
+
+        
+  
+
+}
+
+}
