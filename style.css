@@ -468,7 +468,9 @@ input[type=submit] {
    .main-section {
      float: left;
      max-width: 90%;
-     margin-top: 75px;
+     margin-top: 55px;
+     font-size: 60%;
+
      
    }
    
