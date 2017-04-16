@@ -417,10 +417,9 @@ input[type=submit] {
    .col-12 {width: 100%;}
 
    .main-section {
-     float: left;
      max-width: 700px;
      clear: both;
-     margin: 30px;
+     margin: 30px 30px 30px 30px;
    }
    
    .sidebar {
@@ -429,7 +428,11 @@ input[type=submit] {
      margin: 0px 30px 30px 30px;
      clear: both;
    }
-}
+  #main-container  {
+    max-width: 100%;
+   }
+  }
+
 
 @media only screen and (max-width: 640px) {
    /* For tablets: */
@@ -450,11 +453,10 @@ input[type=submit] {
    float: left;
    width: 100%;
    text-align: center;
-   clear: both;
-   padding: 0px auto;
+
    }
    #masthead  {
-    width: 670px;
+    width: 640px;
     padding-left: 0px;
    }
 
