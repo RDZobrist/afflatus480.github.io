@@ -1,65 +1,110 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Portfolio | Robert Diluzio Zobrist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" type="text/css" href="reset.css">
+    <!-- <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="bootstrapTheme.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>About | Robert Diluzio Zobrist</title>
 </head>
 
 <body>
-    <header id="masthead">
+    <nav class="navbar navbar-default navbar-fixed-top" id="nav">
         <div class="container">
-            <a href="index.html" id="logo">Robert Zobrist</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+            <div class="navbar-header" id="header">
+                <a class="navbar-brand" href="index.html">
+            Robert Diluzio Zobrist
+          </a>
+            </div>
+            <ul class="nav navbar-nav list-inline pull-right">
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
-    </header>
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>Portfolio</h1>
-            <div class="work">
-                <img src="hangman.jpg" alt="hangman" title="Coming Soon">
-                <h3>Hangman</h3>
+    </nav>
+    <div class="container" id="page">
+        <div class="row">
+            <div class="container-fluid">
+                <div class="col-md-8 col-xs-12">
+                    <div class="panel" id="main-section-port">
+                        <div class="panel-heading">
+                            <h4 id="headings">Portfolio</h4>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#" class="thumbmail">
+                                            <img src="hangman.jpg" class="image-responsive pull-left" id="images-left"></a>
+                                        <div class="panel-body">
+                                            <p class="text-center" style="background-color: #2c3e50; color: #ffffff">Hangman</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#" class="thumbmail">
+                                            <img src="rpg.jpg" class="image-responsive pull-right" id="images-right">
+                                        </a>  <div class="panel-body">
+                                            <p class="text-center" style="background-color: #2c3e50; color: #ffffff">Role Player Game</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#" class="thumbmail">
+                                            <img src="trivia.jpg" class="image-responsive pull-left" id="images-left">
+                                        </a>  <div class="panel-body">
+                                            <p class="text-center" style="background-color: #2c3e50; color: #ffffff">Trivia</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#" class="thumbmail">
+                                            <img src="rutgers.jpg" class="image-responsive pull-right" id="images-right">
+                                        </a>  <div class="panel-body">
+                                            <p class="text-center" style="background-color: #2c3e50; color: #ffffff">Rutgers Info Widget</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="media">
+                                                <a href="#" class="thumbmail">
+                                                    <img src="rps.jpg" class="image-responsive pull-left" id="rps-img">
+                                                </a>  <div class="panel-body">
+                                            <p class="text-center" style="background-color: #2c3e50; color: #ffffff" id="para-fix">Rock Paper Scissors</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="work">
-                <img src="rpg.jpg" alt="RPG Game" title="Coming Soon">
-                <h3>RPG Game</h3>
+            <div class="col-md-4 col-xs-12">
+                <div class="panel" id="social-panel-port">
+                    <div class="panel-heading">
+                        <h4 id="headings">
+            Connect With Me</h4>
+                    </div>
+                    <div class="panel-body">
+                        <a href="https://github.com/afflatus480" title="Go to my GitHub profile!"><img src="github.png" class="social" id="git" alt="GitHub" /></a>
+                        <a href="https://www.linkedin.com/in/robert-zobrist-1a2474133/" title="Go to my LinkedIn profile!"><img src="linkedin_1.png" class="social" id="link" alt="LinkedIn" / target="_blank"></a>
+                        <a href="http://stackoverflow.com/users/7656226/robert-zobrist" title="Go to my StackOverflow profile!"><img src="stack.png" class="social" id="stack" alt="Stack Overflow" /></a>
+                    </div>
+                    <!-- Begin Footer -->
+                    <div class="navbar navbar-default navbar-fixed-bottom" id="footer">
+                        <div class="container">
+                            <div class="navbar-text" id="footerFix">
+                                <p>
+                                    &copy; 2017 Robert Diluzio Zobrist
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="work">
-                <img src="trivia.jpg" alt="Trivia Game" title="Coming Soon">
-                <h3>Trivia Game</h3>
-            </div>
-            <div class="work">
-                <img src="rutgers.jpg" alt="Rutgers Info Widget" title="Coming Soon!">
-                <h3>Rutgers Info Widget</h3>
-            </div>
-            <div class="work">
-                <img src="rps.jpg" alt="Rock Paper Scissors" title="Coming Soon">
-                <h3>Rock Paper Scissors</h3>
-            </div>
-        </section>
-        <section class="sidebar">
-            <div id="connect">
-                <h2>Connect with Me</h2>
-                <a href="https://github.com/afflatus480"><img src="github.png" class="social" alt="GitHub" /></a>
-                <a href="https://www.linkedin.com/in/robert-zobrist-1a2474133/"><img src="linkedin_1.png" class="social" alt="LinkedIn" /></a>
-                <a href="http://stackoverflow.com/users/7656226/robert-zobrist"><img src="stack.png" class="social" alt="Stack Overflow" /></a>
-            </div>
-        </section>
-    </div>
-    <footer>
-        <div class="container">
-            Copyright &copy; 2017 Robert Diluzio Zobrist
-        </div>
-    </footer>
 </body>
 
 </html>
+</div>
 </body>
-
-</html>
+< </html>
