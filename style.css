@@ -45,8 +45,8 @@
     /*padding:0px auto;*/
     border-bottom: 2px solid #18bc93;
     padding: 0px;
-    text-indent: 20px;
-    padding-right: 60px;
+    text-indent: 50px;
+    padding-right: 55px;
 }
 
 #footer {
@@ -103,25 +103,42 @@ body {
 .caption {
     position: absolute;
     top: 75%;
-    
-    width: 100%;
+    left: 0px;
+   width: 190px;
+   text-align: center;
+   
 }
 #images-left,
 #images-right  {
-    height: 200px;
-    width: 200px;
-   margin:20px;
-
+    height: 190px;
+    width: 190px;
 
 }
 
 /*portfolio styling*/
-#main-section-port  {
-    max-width: 500px;
-    padding:10px;
+/*#main-section-port  {
+    min-width: 300px;
+    max-width: 640px;
+    float: left;
+    background-color: #ffffff;
+    margin-bottom: 80px;
+}*/
+#social-panel-port  {
+      width: 100%;
+    min-width: 250px;
+    text-align: center;
+    float: right;
+   
+    margin-right: 50px;
 }
-#rgp-fix  {
-    width:80%;
-    position:relative;
-    left:0px;
-    right:0px;
+#link-port,
+#git-port,
+#stack-port  {
+    max-width: 70px;
+    max-height: 70px;
+    padding: 10px;
+    text-align: center;
+}
+#text-box  {
+
+}
