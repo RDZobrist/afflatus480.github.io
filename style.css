@@ -4,11 +4,9 @@
 }
 
 #headings {
-   color: #2c3e50;
+    color: #2c3e50;
     width: 100%;
 }
-
-
 
 #img-fix {
     padding-right: 15px;
@@ -29,12 +27,11 @@
     text-align: center;
     float: right;
     max-width: 380px;
-
 }
 
 #main-section {
-min-width: 300px;
-max-width: 640px;
+    min-width: 300px;
+    max-width: 640px;
     float: left;
     background-color: #ffffff;
     margin-bottom: 80px;
@@ -76,51 +73,55 @@ body {
 #header {
     text-indent: 60px;
 }
+
+
 /*contact styling*/
-#main-section2  {
+
+#main-section2 {
     max-width: 600px;
-margin-right: 150px;
+    margin-right: 150px;
     float: left;
     background-color: #ffffff;
     margin-bottom: 80px;
     padding-left: 20px;
-padding-bottom: 20px;
-padding-right: 20px;
-}
-#social-panel-contact  {
-  width: 100%;
-     min-width: 250px;
-     text-align: center;
-     margin-left: 40px;
-    
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 
-#images-left  {
-    height: 227px;
-    width: 237px;
-     padding-top: 10px;
-    padding-left: 15px;
-    padding-bottom: 10px;
+#social-panel-contact {
+    width: 100%;
+    min-width: 250px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+
+    .thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 75%;
     
-}#images-right  {
-     height: 227px;
-    width: 237px;
-     padding-top: 10px;
-    padding-right: 15px;
-    padding-bottom: 10px;
+    width: 100%;
 }
-#rps-img  {
-    height:227px;
-    width: 237px;
-    padding-top: 10px;
-    margin-left: 15px;
-    padding-left: 10px;
-    padding-bottom: 10px;
+#images-left,
+#images-right  {
+    height: 200px;
+    width: 200px;
+   margin:20px;
+
+
 }
-#para-fix  {
-    padding-left: 10px;
-    margin-left: 10px;
-   height: 227px;
-   width: 237px;
-}
+
 /*portfolio styling*/
+#main-section-port  {
+    max-width: 500px;
+    padding:10px;
+}
+#rgp-fix  {
+    width:80%;
+    position:relative;
+    left:0px;
+    right:0px;
