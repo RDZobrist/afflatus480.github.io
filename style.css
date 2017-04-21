@@ -45,8 +45,7 @@
     /*padding:0px auto;*/
     border-bottom: 2px solid #18bc93;
     padding: 0px;
-    text-indent: 50px;
-    padding-right: 55px;
+    
 }
 
 #footer {
@@ -116,13 +115,13 @@ body {
 }
 
 /*portfolio styling*/
-/*#main-section-port  {
+#main-section-port  {
     min-width: 300px;
     max-width: 640px;
     float: left;
     background-color: #ffffff;
     margin-bottom: 80px;
-}*/
+}
 #social-panel-port  {
       width: 100%;
     min-width: 250px;
