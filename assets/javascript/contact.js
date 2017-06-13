@@ -40,7 +40,7 @@ console.log(name +"  "+email+"  " +message);
 	database.ref(name).push(user);
 
 	// clear input fields
-	txtComment.value = "";
-	txtEmail.value = "";
-	txtName.value = "";
+	$("#message-input").val("");
+	$("#email-input").val("");
+	$("#name-input").val("");
 });
