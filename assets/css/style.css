@@ -61,7 +61,7 @@
 }
 
 body {
-    background: url("confectionary.png");
+    background: url("../confectionary.png");
 }
 
 #page {
@@ -97,16 +97,14 @@ body {
 
     .thumbnail {
     position: relative;
-    padding:0px;
 }
 
-.cards {
-   /* position: absolute;
+.caption {
+    position: absolute;
     top: 75%;
-    left: 0px;*/
+    left: 0px;
    width: 190px;
    text-align: center;
-  
    
 }
 #images-left,
@@ -118,12 +116,11 @@ body {
 
 /*portfolio styling*/
 #main-section-port  {
- /*   min-width: 300px;*/
-    /*max-width: 640px;*/
+    min-width: 300px;
+    max-width: 640px;
     float: left;
     background-color: #ffffff;
     margin-bottom: 80px;
-    width: 100%;
 }
 #social-panel-port  {
       width: 100%;
@@ -140,4 +137,7 @@ body {
     max-height: 70px;
     padding: 10px;
     text-align: center;
+}
+#text-box  {
+
 }
