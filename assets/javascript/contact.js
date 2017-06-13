@@ -38,4 +38,9 @@ console.log(name +"  "+email+"  " +message);
 
 	// push object to firebase
 	database.ref(name).push(user);
+
+	// clear input fields
+	txtComment.value = "";
+	txtEmail.value = "";
+	txtName.value = "";
 });
