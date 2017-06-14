@@ -138,6 +138,8 @@ body {
     padding: 10px;
     text-align: center;
 }
-#text-box  {
+#confirmMessage {
+    /*margin-right: 50px;*/
+    margin-left: 100px;
 
 }
