@@ -172,3 +172,32 @@ body {
 }
 
 /*--------NAV END----------*/
+/*---------NAV START----------*/
+.navbar-custom {
+  background-color: #fff;
+}
+
+#logo {
+  height: 60px;
+  margin-left: 70px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background: #4aaaa5;
+  font-size: 24px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-right-custom {
+  padding-top: 6px;
+  padding-right: 20px;
+  font-family: Arial;
+  font-weight: lighter;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #4aaaa5;
+}
+
+/*--------NAV END----------*/
