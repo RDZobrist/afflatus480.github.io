@@ -45,4 +45,4 @@ console.log(name +"  "+email+"  " +message);
 	$("#name-input").val("");
 
 	$('#confirmMessage').text("Thank You! I will be in contact shortly.").css({color:'black'});
-});.
+});
