@@ -36,6 +36,7 @@ console.log(name +"  "+email+"  " +message);
 		message: message
 	}
 
+if (user.email.length > 10){
 	// push object to firebase
 	database.ref(name).push(user);
 
@@ -44,5 +45,7 @@ console.log(name +"  "+email+"  " +message);
 	$("#email-input").val("");
 	$("#name-input").val("");
 
-	$('#confirmMessage').text("Thank You! I will be in contact shortly.").css({color:'black'});
-});
+	$('#confirmMessage').empty().text("Thank You! I will be in contact shortly.").css({color:'black'});
+}else{
+	$('#confirmMessage').empty().text("Please enter a valid Email.")
+}});
