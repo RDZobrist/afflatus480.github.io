@@ -35,7 +35,7 @@ console.log(name +"  "+email+"  " +message);
 		email: email,
 		message: message
 	}
-
+// if user input in email field at least ten characters
 if (user.email.length > 10){
 	// push object to firebase
 	database.ref(name).push(user);
@@ -44,8 +44,15 @@ if (user.email.length > 10){
 	$("#message-input").val("");
 	$("#email-input").val("");
 	$("#name-input").val("");
-
+	// Show confirmation message
 	$('#confirmMessage').empty().text("Thank You! I will be in contact shortly.").css({color:'black'});
+
+	// if user input in email field is less than ten characters
 }else{
+	// show message to user asking for a valid email (will use passport here to validate forms)
 	$('#confirmMessage').empty().text("Please enter a valid Email.").css({color:'red'});
+	// clear input fields
+	$("#message-input").val("");
+	$("#email-input").val("");
+	$("#name-input").val("");
 }});
