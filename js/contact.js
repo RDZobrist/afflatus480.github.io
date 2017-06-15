@@ -47,5 +47,5 @@ if (user.email.length > 10){
 
 	$('#confirmMessage').empty().text("Thank You! I will be in contact shortly.").css({color:'black'});
 }else{
-	$('#confirmMessage').empty().text("Please enter a valid Email.")
+	$('#confirmMessage').empty().text("Please enter a valid Email.").css({color:'red'});
 }});
