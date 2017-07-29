@@ -220,3 +220,7 @@ body {
 #footer-button-container  {
   align-content: center;
 }
+
+a  {
+  color: black;
+}
