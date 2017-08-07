@@ -224,3 +224,15 @@ body {
 a  {
   color: black;
 }
+
+/* IMAGE BORDER   */
+
+.col-lg-5.col-sm-pull-6.col-sm-6image-box  {
+    border-radius: 3.75px;
+    box-shadow: #555 2px;
+    
+}
+i.linkIcon:hover,
+i.linkIcon:hover:active  {
+    color: #f93;
+}

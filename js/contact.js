@@ -55,4 +55,9 @@ if (user.email.length > 10){
 	$("#message-input").val("");
 	$("#email-input").val("");
 	$("#name-input").val("");
-}});
+
+}
+
+
+
+});
